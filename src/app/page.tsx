@@ -7,7 +7,7 @@ export default function Home() {
       <h1>ระบบ Portfolio TCAS</h1>
 
       <div>
-        <Link href="/student" className="btn btn-primary">
+        <Link href="/teacher" className="btn btn-primary">
           📋 ดูรายชื่อนักเรียน
         </Link>
 
