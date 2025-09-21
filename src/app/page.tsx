@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 
 export default function Home() {
@@ -5,17 +6,19 @@ export default function Home() {
     <div className="main-container">
       <h1>ระบบ Portfolio TCAS</h1>
 
-      <Link href="/student" className="btn btn-primary">
-        📋 ดูรายชื่อนักเรียน
-      </Link>
+      <div>
+        <Link href="/" className="btn btn-secondary">
+          🏠 Home
+        </Link>
 
-      <Link href="/" className="btn btn-secondary">
-        🏠 Home
-      </Link>
+        <Link href="/student" className="btn btn-primary">
+          📋 ดูรายชื่อนักเรียน
+        </Link>
 
-      <Link href="/student" className="btn btn-primary">
-        ➕ เพิ่ม Portfolio นักเรียน
-      </Link>
+        <Link href="/student" className="btn btn-primary">
+          ➕ เพิ่ม Portfolio นักเรียน
+        </Link>
+      </div>
     </div>
   );
 }
