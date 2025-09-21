@@ -7,6 +7,9 @@ export default function Navbar() {
       <div className="logo">Portfolio TCAS</div>
       <ul>
         <li>
+          <Link href="/">Home</Link>
+        </li>
+        <li>
           <Link href="/student">Student</Link>
         </li>
         <li>
