@@ -1,9 +1,21 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="main-container">
       <h1>ระบบ Portfolio TCAS</h1>
-      <a href="/student" className="btn btn-primary">➕ เพิ่มข้อมูลนักเรียน</a>
-      <a href="/teacher" className="btn btn-secondary">📋 ดูรายชื่อนักเรียน</a>
+
+      <Link href="/student" className="btn btn-primary">
+        📋 ดูรายชื่อนักเรียน
+      </Link>
+
+      <Link href="/" className="btn btn-secondary">
+        🏠 Home
+      </Link>
+
+      <Link href="/student" className="btn btn-primary">
+        ➕ เพิ่ม Portfolio นักเรียน
+      </Link>
     </div>
   );
 }
